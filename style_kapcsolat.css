@@ -1,0 +1,164 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+.locations,
+.daily-menu,
+.gifts,
+.faq,
+.contact {
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: 'Great Vibes', cursive;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(102, 81, 54);
+}
+
+a:hover {
+    color: #eda087;
+    transition: color 0.15s ease-in-out;
+}
+
+.cover {
+    background: url('assets/nagy_hatter.jpg') no-repeat 70% center/cover;
+    display: table;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+nav ul {
+    background-color: rgb(102, 81, 54);
+    text-align: center;
+}
+
+nav li {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    height: 3rem;
+    border-bottom: 1px solid #ccc;
+    margin-left: 5rem;
+    white-space: nowrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+nav a:hover {
+    color: #eda087;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a.active {
+    background-color: white;
+    color: #eee;
+}
+
+@media (min-width: 767px) {
+    nav li {
+        display: inline-block;
+        border-bottom: none;
+        width: 7.5rem;
+    }
+}
+
+.ikon {
+    font-size: 1.5rem;
+}
+
+.contact {
+    background-color: white;
+    text-align: center;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 20%;
+    box-shadow: 20px 20px 20px black;
+    position: absolute;
+    top: 5rem;
+    right: 35rem;
+}
+
+.contact-text h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+.contact-text h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.contact-text p {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.ikon2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.ikon2 {
+    font-size: 4rem;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+img {
+    height: 18.5rem;
+    border: 2px solid #333;
+    box-shadow: 20px 20px 20px black;
+    border-radius: 50%;
+}
+
+.kep {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map {
+    height: 15rem;
+    width: 15rem;
+    border: 2px solid #333;
+    box-shadow: 20px 20px 20px black;
+    border-radius: 50%;
+    position: absolute;
+    top: 6rem;
+    right: 10rem;
+}
+
+
+
+
+

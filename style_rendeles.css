@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    font-family: 'Great Vibes', cursive;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #eda087;
+    transition: color 0.15s ease-in-out;
+}
+
+.cover {
+    background: url('assets/nagy_hatter.jpg') no-repeat 70% center/cover;
+    display: table;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+nav ul {
+    background-color: rgb(102, 81, 54);
+    text-align: center;
+}
+
+nav li {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    height: 3rem;
+    border-bottom: 1px solid #ccc;
+    margin-left: 5rem;
+    white-space: nowrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+nav a:hover {
+    color: #eda087;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a.active {
+    background-color: white;
+    color: #eee;
+}
+
+@media (min-width: 767px) {
+    nav li {
+        display: inline-block;
+        border-bottom: none;
+        width: 7.5rem;
+    }
+}
+
+.ikon {
+    font-size: 1.5rem;
+}
+
+.contact {
+    background-color: white;
+    text-align: left;
+    width: 95vw;
+    height: 40vw;
+    border-radius: 10%;
+    box-shadow: 20px 20px 20px black;
+    position: absolute;
+    top: 6rem;
+    right: 3rem;
+}
+
+.contact-text h2 {
+    font-family: 'Great Vibes', cursive;
+    margin: 2rem;
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+.contact-text p {
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+.contact-text {
+    height: 35vw;
+    width: 30vw;
+    margin: 3rem;
+    margin-top: 10rem;
+    margin-left: 45rem;
+}
+
+.ikon2-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 9rem;
+}
+
+.ikon2 {
+    font-size: 4rem;
+    text-align: left;
+    color: rgb(102, 81, 54);
+}
+
+.map {
+    height: 30rem;
+    width: 30rem;
+    border: 2px solid #333;
+    box-shadow: 20px 20px 20px black;
+    position: absolute;
+    top: 15rem;
+    right: 7rem;
+    border-radius: 20%;
+}
+
+.my-button {
+    display: inline-block;
+    width: 30rem;
+    background-color: rgb(102, 81, 54);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.text {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    height: 3rem;
+    margin: 2rem;
+}
+
+.text-box {
+    height: 25vw;
+    width: 30vw;
+    position: absolute;
+    top: 15rem;
+    left: 6rem;
+    text-align: center;
+    box-shadow: 0px 1px 20px black;
+}
